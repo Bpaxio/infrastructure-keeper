@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: reverse-proxy
+  cloud:
+    config:
+      fail-fast: true

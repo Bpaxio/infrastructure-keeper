@@ -1,0 +1,8 @@
+server:
+  port: 8081
+eureka:
+  client:
+    fetch-registry: true
+file:
+  store:
+    root-dir: /Users/Bpaxio/Documents/workspace/otus/Things Keeper/file-service/src/main/resources/files

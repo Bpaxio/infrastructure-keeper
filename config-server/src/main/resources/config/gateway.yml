@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    fetch-registry: true
+
+zuul:
+  prefix: "/api"
+  strip-prefix: true
+  routes:
+    files:
+      serviseId: files-keeper
+      strip-prefix: false
