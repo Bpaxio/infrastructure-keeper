@@ -10,5 +10,6 @@ zuul:
   strip-prefix: true
   routes:
     files:
+      path: "files/**"
       serviseId: files-keeper
       strip-prefix: false

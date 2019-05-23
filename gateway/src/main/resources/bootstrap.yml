@@ -1,6 +1,6 @@
 spring:
   application:
-    name: reverse-proxy
+    name: gateway
   cloud:
     config:
       fail-fast: true
