@@ -17,6 +17,7 @@ public class SwaggerDocController implements SwaggerResourcesProvider {
     public List<SwaggerResource> get() {
         List<SwaggerResource> resources = new ArrayList<>();
         resources.add(swaggerResource("files-keeper", "/api/files/v2/api-docs", "2.0"));
+        resources.add(swaggerResource("things-keeper", "/api/meta/v2/api-docs", "2.0"));
         return resources;
     }
 

@@ -1,0 +1,20 @@
+spring:
+  jackson:
+    default-property-inclusion: non_null
+    deserialization:
+      FAIL_ON_UNKNOWN_PROPERTIES: false
+
+  data:
+    mongodb:
+      database: keeper
+      port: 27017
+      host: localhost
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+server:
+  port: 8082
+filer:
+  host: http://localhost
+  port: 8081

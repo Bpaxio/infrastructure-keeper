@@ -13,3 +13,6 @@ zuul:
 #      path: "/files/**"
       serviceId: files-keeper
       strip-prefix: true
+    meta:
+      serviceId: things-keeper
+      strip-prefix: true
