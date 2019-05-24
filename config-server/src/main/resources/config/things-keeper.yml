@@ -16,5 +16,4 @@ logging:
 server:
   port: 8082
 filer:
-  host: http://localhost
-  port: 8081
+  url: http://files-keeper/
