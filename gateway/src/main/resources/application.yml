@@ -1,10 +1,3 @@
-server:
-  port: 8080
-
-eureka:
-  client:
-    fetch-registry: true
-
 zuul:
   sensitive-headers: ""
   prefix: "/api"
@@ -16,3 +9,7 @@ zuul:
     meta:
       serviceId: things-keeper
       strip-prefix: true
+
+
+server:
+  port: 8080
