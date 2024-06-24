@@ -6,10 +6,13 @@ eureka:
     fetch-registry: true
 
 zuul:
+  sensitive-headers: ""
   prefix: "/api"
   strip-prefix: true
   routes:
     files:
-      path: "files/**"
-      serviseId: files-keeper
-      strip-prefix: false
+      serviceId: files-keeper
+      strip-prefix: true
+    meta:
+      serviceId: things-keeper
+      strip-prefix: true

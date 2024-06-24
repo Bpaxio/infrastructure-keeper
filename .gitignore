@@ -15,5 +15,6 @@ buildNumber.properties
 /files-keeper/
 /things-keeper/
 /things-keeper-ui/
+/files/
 
 .idea/

@@ -1,0 +1,15 @@
+zuul:
+  sensitive-headers: ""
+  prefix: "/api"
+  strip-prefix: true
+  routes:
+    files:
+      serviceId: files-keeper
+      strip-prefix: true
+    meta:
+      serviceId: things-keeper
+      strip-prefix: true
+
+
+server:
+  port: 8080
